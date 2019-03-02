@@ -1369,8 +1369,8 @@ section
 .footer_container
 {
 	background: #221831;
-	padding-top: 83px;
-	padding-bottom: 71px;
+	padding-top: 50px;
+	padding-bottom: 25px;
 }
 .footer_text
 {
@@ -1387,7 +1387,7 @@ section
 }
 .footer_column
 {
-	padding-top: 23px;
+	padding-top: 10px;
 }
 .newsletter_form
 {
