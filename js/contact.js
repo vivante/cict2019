@@ -101,11 +101,11 @@ $(document).ready(function()
 
 	function initGoogleMap()
 	{
-		var myLatlng = new google.maps.LatLng(40.760836, -73.910357);
+		var myLatlng = new google.maps.LatLng(25.431275, 81.770746);
     	var mapOptions = 
     	{
     		center: myLatlng,
-	       	zoom: 14,
+	       	zoom: 16,
 			mapTypeId: google.maps.MapTypeId.ROADMAP,
 			draggable: true,
 			scrollwheel: false,
