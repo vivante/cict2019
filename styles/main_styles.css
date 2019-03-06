@@ -426,7 +426,7 @@ section
 }
 .logo
 {
-	display: inline-block;
+	display: flex;
 }
 .logo a
 {
