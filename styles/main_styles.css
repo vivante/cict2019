@@ -405,7 +405,7 @@ section
 	top: 22px;
 	left: 23px;
 	width: calc(100% - 48px);
-	background: #7F66FF;
+	background: #0a2642;
 	z-index: 100;
 	border-bottom: solid 2px #7f66ff;
 }
@@ -504,7 +504,7 @@ section
 .main_nav > ul > li.active a,
 .main_nav > ul > li > a:hover::after
 {
-	color: #0a2642;
+	color: #7f66ff;
 }
 .main_nav ul li > ul
 {
