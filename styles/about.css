@@ -138,7 +138,6 @@ h1, h2, h3, h4, h5, h6
 	line-height: 1.2;
 	color: #0a2642;
 	font-weight: 700;
-	margin-bottom: 0;
 }
 h1::selection, 
 h2::selection, 
@@ -330,10 +329,6 @@ section
 {
 	background: #0a2642;
 }
-.button_4::after
-{
-	background: #ffffff;
-}
 .button_4:hover
 {
 	background: #0a2642;
@@ -430,7 +425,7 @@ section
 }
 .logo
 {
-	display: inline-block;
+	display: flex;
 }
 .logo a
 {
@@ -714,6 +709,7 @@ section
 {
 	color: #7f66ff;
 }
+
 
 /*********************************
 4. Menu
@@ -1160,7 +1156,6 @@ section
 /*********************************
 11. Footer
 *********************************/
-
 .footer
 {
 
@@ -1168,8 +1163,8 @@ section
 .footer_container
 {
 	background: #221831;
-	padding-top: 83px;
-	padding-bottom: 71px;
+	padding-top: 50px;
+	padding-bottom: 25px;
 }
 .footer_text
 {
@@ -1186,7 +1181,7 @@ section
 }
 .footer_column
 {
-	padding-top: 23px;
+	padding-top: 10px;
 }
 .newsletter_form
 {
@@ -1306,7 +1301,6 @@ section
 	font-weight: 400;
 	color: #4e445d;
 }
-
 
 
 
