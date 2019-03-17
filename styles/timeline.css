@@ -92,6 +92,9 @@ h4{text-align:center;margin:30px 0;color:#444}
 .main-timeline4 .timeline:nth-child(3) .year:before{border-left-color:#7cba01}
 .main-timeline4 .timeline:nth-child(3n) .title{color:#7cba01}
 .main-timeline4 .timeline:nth-child(4n) .year{border-color:#f8781f;color:#f8781f}
+.main-timeline4 .timeline:nth-child(7) .year{border-color:#41da22;color:#41da22}
+.main-timeline4 .timeline:nth-child(7) .title{color:#41da22}
+.main-timeline4 .timeline:nth-child(7) .year:before{border-left-color:#41da22}
 .main-timeline4 .timeline:nth-child(4) .year:before{border-right-color:#f8781f}
 .main-timeline4 .timeline:nth-child(4n) .title{color:#f8781f}
 @media only screen and (max-width:1200px){.main-timeline4 .year{top:50%;transform:translateY(-50%)}
