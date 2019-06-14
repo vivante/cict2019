@@ -55,6 +55,8 @@
 	{
 		display: none;
 	}
+
+	
 }
 
 /************
@@ -93,6 +95,8 @@
 	{
 		display: none;
 	}
+
+	
 }
 
 /************
@@ -168,6 +172,8 @@
 	{
 		margin-bottom: 80px;
 	}
+
+	
 }
 
 /************
@@ -216,6 +222,7 @@
 	{
 		font-size: 48px;
 	}
+
 }
 
 /************
@@ -340,7 +347,7 @@
 	.cta_text p
 	{
 		font-size: 16px;
-	}
+	}	
 }
 
 /************
@@ -376,5 +383,9 @@
 
 @media only screen and (max-width: 400px)
 {
-	
+	.customMob
+	{
+		/* margin-right: 120px; */
+		margin-left: 120px;
+	}
 }
