@@ -74,7 +74,7 @@ body.news-scroll {
 
 /* EMBEDDED NEWS PAGE LINK COLORS */
 
-.news-scroll a:link	{ color: rgb(0, 185, 15); text-decoration: none; }
+.news-scroll a:link	{ color: #800000; text-decoration: none; }
 
 .news-scroll a:visited	{ color: #6633FF; text-decoration: none; }
 
