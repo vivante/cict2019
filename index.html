@@ -19,6 +19,27 @@
 	<link rel="stylesheet" type="text/css" href="styles/responsive.css">
 
 	<link rel="stylesheet" type="text/css" href="styles/news_scroll.css">
+	<style>
+			blink {
+				animation: blinker 0.6s linear infinite;
+				color: #1c87c9;
+				}
+			@keyframes blinker {  
+				50% { opacity: 0; }
+				}
+				.blink-one {
+				animation: blinker-one 1s linear infinite;
+				}
+				@keyframes blinker-one {  
+				0% { opacity: 0; }
+				}
+				.blink-two {
+				animation: blinker-two 1.4s linear infinite;
+				}
+				@keyframes blinker-two {  
+				100% { opacity: 0; }
+				}
+		</style>
 
 </head>
 
@@ -131,7 +152,7 @@
 			
 					<div class='container-fluid' style='background: rgba(255, 255, 255, .1);'>
 							<marquee scrolldelay='10'  width='1050' behavior="alternate">
-									<b><font color='#ff0000'>Last date of paper submission is <strike>31st July,2019</strike> 31st August,2019</font></b>
+									<b><font color='#ff0000'>Last date of paper submission is <strike>31st July,2019</strike> 31st August,2019</font><p style="display: inline-block" class="blink-one"><img src="images/pop2.png" style="width:10%;"/></p></b>
 							</marquee>
 					</div>
 			
