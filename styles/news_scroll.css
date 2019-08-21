@@ -87,7 +87,11 @@ body.news-scroll {
 	.customMob
 	{
 		/* margin-right: 120px; */
-		margin-left: -8%;
+		/* margin-left: -10%; */
+		/* text-align: center; */
+		/* display: inline-block; */
+		/* margin: 0 auto; */
+		/* margin-left: 350px; */
 	}
 }
 
@@ -160,6 +164,6 @@ body.news-scroll {
 	.customMob
 	{
 		/* margin-right: 120px; */
-		margin-left: 100px;
+		margin-left: 50px;
 	}
 }
