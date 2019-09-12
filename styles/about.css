@@ -456,6 +456,7 @@ section
 }
 .main_nav
 {
+	z-index: 1;
 	margin-left: 155px;
 }
 .main_nav ul li
