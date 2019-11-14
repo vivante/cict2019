@@ -1,0 +1,219 @@
+@charset "utf-8";
+/* CSS Document */
+
+/******************************
+
+[Table of Contents]
+
+1. Fonts
+2. Body and some general stuff
+3. Header
+4. Menu
+5. Home
+6. Contact
+7. CTA
+8. Footer
+
+
+******************************/
+
+/***********
+1. Fonts
+***********/
+
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+
+
+/*********************************
+5. Home
+*********************************/
+
+/*********************************
+6. Contact
+*********************************/
+
+.contact
+{
+	background: #ffffff;
+}
+.container_wrapper > .container
+{
+	max-width: 100%;
+	padding-left: 0;
+	padding-right: 0;
+}
+.container_wrapper > .container > .row
+{
+	margin-left: 0;
+	margin-right: 0;
+}
+.container_wrapper > .container > .row > div[class^='col']
+{
+	padding-left: 0;
+	padding-right: 0;
+}
+.contact_map_container
+{
+	height: 100%;
+	padding-right: 69px;
+}
+.map
+{
+	height: 100%;
+}
+.google_map
+{
+	width: 100%;
+	height: 100%;
+	min-height: 600px;
+}
+.map_container
+{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+}
+#map
+{
+	width: 100%;
+	height: calc(100% + 30px);
+}
+.contact_content
+{
+	padding-top: 92px;
+	padding-right: 190px;
+	padding-bottom: 103px;
+	padding-left: 15px;
+}
+.contact_title
+{
+	font-size: 30px;
+	font-weight: 700;
+	color: #0a2642;
+}
+.contact_text
+{
+	margin-top: 15px;
+}
+.contact_list
+{
+	margin-top: 43px;
+}
+.contact_list ul li
+{
+	font-size: 15px;
+	font-weight: 400;
+	color: #68727c;
+}
+.contact_list ul li:not(:last-of-type)
+{
+	margin-bottom: 22px;
+}
+.contact_form_container
+{
+	margin-top: 56px;
+}
+.contact_form
+{
+	display: block;
+	width: 100%;
+}
+.contact_form > div > div
+{
+	width: calc((100% - 30px) / 2);
+}
+.contact_input
+{
+	width: 100%;
+	height: 55px;
+	background: #ffffff;
+	border: solid 1px #d8e5e7;
+	outline: none;
+	padding-left: 15px;
+	margin-bottom: 24px;
+	font-size: 15px;
+	font-weight: 500;
+	color: #68727c;
+}
+.contact_input:focus
+{
+	border-color: #ff9000;
+}
+.contact_textarea
+{
+	height: 190px;
+	padding-top: 15px;
+	font-weight: 400;
+}
+.contact_input::-webkit-input-placeholder
+{
+	font-size: 15px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #68727c !important;
+}
+.contact_input:-moz-placeholder
+{
+	font-size: 15px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #68727c !important;
+}
+.contact_input::-moz-placeholder
+{
+	font-size: 15px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #68727c !important;
+} 
+.contact_input:-ms-input-placeholder
+{ 
+	font-size: 15px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #68727c !important;
+}
+.contact_input::input-placeholder
+{
+	font-size: 15px !important;
+	font-weight: 400 !important;
+	font-style: italic;
+	color: #68727c !important;
+}
+.contact_button
+{
+	width: 146px;
+	height: 59px;
+	background: #7f66ff;
+	border: none;
+	outline: none;
+	border-bottom: solid 3px #0a2642;
+	cursor: pointer;
+	margin-top: 11px;
+}
+.contact_button span
+{
+	font-size: 14px;
+	font-weight: 900;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 0.2em;
+}
+.contact_button span img
+{
+	margin-left: 15px;
+	margin-bottom: 2px;
+	-webkit-transition: all 700ms ease;
+	-moz-transition: all 700ms ease;
+	-ms-transition: all 700ms ease;
+	-o-transition: all 700ms ease;
+	transition: all 700ms ease;
+}
+.contact_button:hover span img
+{
+	transform: translateX(5px);
+}
+
+/*********************************
+7. CTA
+*********************************/
